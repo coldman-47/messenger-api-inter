@@ -1,0 +1,10 @@
+//download the bundles
+composer install
+
+//change the database url in the .env.local
+
+//create the database
+symfony console d:d:c
+
+//execute migrations
+symfony console doctrine:migrations:migrate
